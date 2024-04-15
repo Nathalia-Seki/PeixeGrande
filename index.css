@@ -31,37 +31,58 @@ a{
 #logo_03{
     width: 70%;
 }
-#texto{
+#mensagem{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #e8e6e6;
     padding: 5px;
 }
-#texto2{
-   color: #ffffff; 
-   background-color: #000000;
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   font-size: 18px;
-   display: flex;
-   width: 100%;
-   padding: 10px;
-   flex-direction: row;
-   justify-content: center;
-   align-items: center;
-   flex-wrap: wrap;
-   gap: 300px;
-}
-#texto3{
-    color: #000000; 
-    background-color: #e8e6e6;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 14px;
-    font-weight: bold;
+
+/* textos */
+
+#textos{
     display: flex;
+    background-color: #e8e6e6;
+}
+
+.tituloTextos{
     width: 100%;
-    padding: 10px;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 200px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+#textos p, #textos h5{
+    margin: 20px;
+}
+
+#textos h5{
+    font-size: 15px;
+}
+
+#servicos{
+    width: 75%;
+}
+
+#agenda{
+    width: 25%;
+}
+
+/* rodapé */
+
+#rodape{
+    width: 100%;
+    padding: 10px 0px;
+    background-color: black;
+    color: white;
+}
+
+#rodape p{
+    margin: 20px;
+}
+
+/* mapa */
+#mapa{
+    padding: 5px 0px;
+    margin: 20px 2px;    
+    background-color: #fdfcfc;
 }
